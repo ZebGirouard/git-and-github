@@ -32,9 +32,9 @@ Market: SF
 ## Review: Git vs GitHub and Version Control
 <details>
   <summary>What is the difference between Git and GitHub?</summary>
-  <p>Git is a software version control tool that works on your local machine. It allows you to `init`, `add`, `commit`, and `fork` project 'repos'. It also has methods `push`, `pull`, and `fetch` which are designed to interact with a cloud based service like GitHub.
+  <p>Git is a software version control tool that works on your local machine. It allows you to `init`, `add`, `commit`, and `fork` project 'repos'. It also has methods `push`, `pull`, and `fetch` which are designed to interact with a git server or cloud based service like GitHub.
   <br>
-  Github is a cloud based repository, collaboration tool, and social network which uses Git under the hood for its version control system.
+  Github is a cloud based git server and social network which uses Git under the hood for its version control system.
   </p>
 </details>
 
