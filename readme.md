@@ -16,9 +16,10 @@ Market: SF
 ## What are the objectives?
 *After this lesson, students will be able to:*
 
+- Fork, clone, and make pull requests to repositories
 - Create, merge and delete branches on local and remote repositories
+- Use git, GitHub and branches to collaborate with other developers
 - Deploy a project to Github Pages
-- Describe how branching and merging allows for collaboration during development
 
 ## Where should we be now?
 *Before this lesson, students should already be able to:*
