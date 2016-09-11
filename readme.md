@@ -40,75 +40,13 @@ Market: SF
 
 ### What is version control? A closer look:
 
-Version control is a kind of software used to record and re-use changes (or versions) on files so that an history of the file content can be reviewed.
+Version control is a kind of software used to track changes to files so that a comprehensive history of the file content can be reviewed.
 
 There are two main types of version control:
 
-- Centralized
-- Distributed
-
-#### Centralized Version Control
-<figure>
-  <img src="http://s17.postimg.org/3s9fr8zxr/figure1.png" alt="CVCs">
-  <br>
-  <figcaption>Centralized version control (CVCs) has one central repository that is shared among all team members.</figcaption>
-</figure>
-
-Schema from [IBM Developer works](http://www.ibm.com/developerworks/library/d-app-centric-ops/)
-
-
-The main concept of a centralized system is that it works in a client and server relationship. The repository is located in one place and provides access to many clients. It’s very similar to FTP in where you have an FTP client which connects to an FTP server. All changes, users, versions of your project and information must be sent and received from this central repository.
-
-The primary benefits of a Centralized Version Control is:
-
-- It is easy to understand
-- You have more control over users and access (since it is served from one place)
-- Simple to get started
-
-At the same time, Centralized Version Control has some drawbacks:
-
-- Dependent on access to the server (requires internet connection)
-- Hard to manage a server and backups
-- It can be slower because every command connects to the server
-- Branching and merging tools are difficult to use
-
-Popular centralized version control systems (CVCSes) include:
-
-- [Subversion](http://subversion.apache.org/)
-- CVS
-
-#### Distributed Version Control
-
-Distributed version control systems are a newer option. In distributed version control, each user has their own copy of the entire repository, not just the files but the history as well. Think of it as a network of individual repositories.  
-
-<figure>
-  <img src="http://s17.postimg.org/3tjdko1rj/figure2.png" alt="DVC">
-  <br>
-  <figcaption>Distributed Version Control</figcaption>
-</figure>
-
-
-Schema from [IBM Developer works](http://www.ibm.com/developerworks/library/d-app-centric-ops/)
-
-The primary benefits of a Distributed Version Control is:
-
-- More powerful and detailed change tracking, which means less conflicts
-- No server necessary – all actions except sharing repositories are local (commit offline)
-- Branching and merging is more reliable, and therefore used more often
-- It’s fast
-
-At the same time, Distributed Version Control do have some drawbacks:
-
-- The distributed model is harder to understand
-- The revisions are not incremental numbers, which make them harder to reference
-- It can be easier to make mistakes until you are familiar with the model
-
-Popular distributed version control systems include:
-
-- [Git](http://git-scm.com/)
-- [mercurial](http://www.selenic.com/mercurial/wiki/index.cgi/ProjectsUsingMercurial)
-- [bzr](http://wiki.bazaar.canonical.com/WhoUsesBzr)
-- [fossil](http://www.fossil-scm.org/)
+- Centralized: All changes are kept on a single server
+- Distributed: Changes can be tracked on individual computers, and synched using the cloud
+- Git and GitHub together form a distributed version control system
 
 #### So many commands?!
 
@@ -118,20 +56,19 @@ There are also a lot of commands you can use in git. You can take a look at a li
 $ git help -a
 ```
 
-Even though there are lots of commands, on the course we will really only need about 10.
-
+Even though there are lots of commands, in this course we will really only need about 10.
 
 #### Git File Lifecycle
 
 To understand how Git works, we need to talk about the lifecycle of a Git-tracked file.
 
 <figure>
-  <img src="https://cloud.githubusercontent.com/assets/40461/8226866/62730b4c-159a-11e5-89cd-20b72ed1de45.png" alt="Git lifecycle">
+  <img src="http://image.slidesharecdn.com/git-getreadytouseit-140228043813-phpapp02/95/git-get-ready-to-use-it-13-638.jpg?cb=1393562489" alt="Git lifecycle">
   <br>
   <figcaption>Git lifecycle</figcaption>
 </figure>
 
-Schema From [git-scm.com](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+Image from Daniel Kummer's [slide deck](http://www.slideshare.net/origamiaddict/git-get-ready-to-use-it) on LinkedIn
 
 There are 4 main stages of Git version controlled file:
 
@@ -667,4 +604,4 @@ Don't be frustrated by all the new commands because we will definitely have the 
 - How do you merge & delete a branch?
 
 ## Associated Lab
-Refine the skills covered in this workshop with this [lab](https://github.com/awhit012/gh-lab/blob/master/readme.md)
+Refine the skills covered in this workshop with this [lab](https://github.com/sf-wdi-gaia/gh-lab)
